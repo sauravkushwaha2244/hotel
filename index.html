@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>hotel managment system</title>
+        <body>
+            <style>
+        
+    
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid ;
+            border-radius: 4px;
+        }
+        
+        
+        </style >
+        
+
+            
+            <h1>Hotel room booking form</h1>
+            <form action = "experiment4.html" method = "post" align="center"></form>
+            <label for = "full name">full name:</label>
+            <input type="text" id="fullname" name="full name" required>
+
+            <label for = "email"> email:</label>
+             <input type="email" id="email" name="email" required>
+
+             <label for = "phone"> phone:</label>
+               <input type="tel" id="phone" name="phone" required>
+             <label for = "check-in date">check-in date:</label>
+               <input type="date" id ="check-in date" name="check-in date" required>
+
+             <label for = "check-out date"> check out date:</label>
+               <input type="date" id="check-out date" name="check-out date" required>
+
+             <label for = "room type"> room type:</label>
+               <select id="room type" name="room type" required>
+               <option value="">select room type</option>
+               <option value = "single">single room</option>
+               <option value = "double">double room</option>
+               <option value = "suites">suites</option>
+               <option value = "delux">delux room</option>
+               </select>
+
+                     <label for="guests">Number of Guests:</label>
+        <select id="guests" name="guests" required>
+            <option value="">Select Number</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+              
+               </select>
+
+               <label for="special requests">special request:</label>
+             <textarea id = "special request " name="special request" rows = "8" placeholder = "any speciual request or notes"> </textarea>
+             <button type = "submit">book now</button>
+             <button type = "reset" class = "reset-btn">reset form</button>
+
+
+            
+        </form>
+
+        </body>
+    </head>
+
+</html>
